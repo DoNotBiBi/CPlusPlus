@@ -30,5 +30,5 @@ int main()
 	int a1 = 2, a2 = 4;
 	cout << mySpace::add(a1, a2) << endl;
 	cout << mySpace::a << endl;
-	cout << "hello";
+	cout << "hello wangkang";
 }
