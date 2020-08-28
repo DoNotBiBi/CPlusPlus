@@ -363,7 +363,7 @@ void InToPost(string ss, queue<char>& q) {
 
 }
 int main() {
-	GetResult();
+	cout<<"hello"<<endl;
 
 	return 0;
 }
