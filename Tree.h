@@ -286,7 +286,7 @@ void CreateTreeIP(BiTNode*& root, string in, int l1, int r1, string post, int l2
 }
 
 
-int main()
+void test_tree()
 {
 	string str1 = "1234567";
 	string str2 = "3254176";

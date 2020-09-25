@@ -30,9 +30,8 @@ int T_Class<int>::add() {
 //int b = square<int>(a);
 //cout << b << endl;
 
-int main()
+void test_template()
 {
 	T_Class<int>* t = new T_Class<int>(2,3);
 	cout<<t->add()<<endl;
-	return 0;
 }

@@ -510,10 +510,9 @@ int KMP(char* s, char* p, int next[]) {
 		return -1;
 	}
 }
-int main()
+void test_alg()
 {
 
-	/*
 	char s[] = "abcdabce";
 	int next[100];
 	GetNext(s, next);
@@ -610,7 +609,5 @@ int main()
 	ifs.close();
 	ofs.close();
 
-	*/
-	return 0;
 
 }

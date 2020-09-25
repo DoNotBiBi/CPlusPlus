@@ -98,7 +98,7 @@ void Countword(string filename) {
 	}
 
 }
-int main()
+void test_file()
 {
 	ifstream ifs;
 	string filename = "in.txt";

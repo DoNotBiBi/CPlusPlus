@@ -14,7 +14,7 @@ bool BinarySearch(int arr[], int n, int target) {
     }
     return false;
 }
-int main()
+void test_find()
 {
     int x[] = { 1,3,4,5,7,8,9 };
     if (BinarySearch(x, 7, 8)) {
@@ -23,5 +23,4 @@ int main()
     else {
         cout << "no" << endl;
     }
-    return 0;
 }

@@ -3,7 +3,7 @@ using namespace std;
 #include<algorithm>
 // 01背包
 const int MAXN = 100;
-int main()
+int test_rucksuck()
 {
 	int dp[MAXN] = { 0 };
 	int v[MAXN] = { 0 }; //物件价值

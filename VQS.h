@@ -362,8 +362,3 @@ void InToPost(string ss, queue<char>& q) {
 	}
 
 }
-int main() {
-	cout<<"hello"<<endl;
-
-	return 0;
-}

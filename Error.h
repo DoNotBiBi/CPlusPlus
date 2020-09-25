@@ -102,8 +102,3 @@ void T_Error3() {
 		}
 	}
 }
-int main()
-{
-	T_Error3();
-	return 0;
-}

@@ -9,7 +9,7 @@ namespace mySpace { // 名称空间
 	}
 	int a = 2;
 }
-int main()
+void test_basic()
 {
 	//const为限定符  
 	// 1.明确指定类型

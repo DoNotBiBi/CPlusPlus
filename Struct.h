@@ -181,10 +181,7 @@ mystruct_p test_pointer4(mystruct_p& TEST) {
 	mystruct_p p1 = new myStruct{ 2,3,"wangkang" };
 	mystruct_p p2 = test_pointer4(p1);
 */
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+
 
 
 /*

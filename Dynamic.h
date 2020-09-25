@@ -39,7 +39,7 @@ long long MaxSubmatrix(int n) {
 
     return maximal;
 }
-int main()
+void test_dynamic()
 {
     int n;
     cin >> n;

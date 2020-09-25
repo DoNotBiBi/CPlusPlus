@@ -89,7 +89,7 @@ int STU::getAge()
     return this->age;
 }
 
-int main()
+void test_class()
 {
 
     //myClass* t_class = new myClass("male","hb");
@@ -103,6 +103,6 @@ int main()
     cout << s_class->getAge() << endl;
     cout << s_class->getGender() << endl;
     cout << s_class->getAddress() << endl;
-    return 0;
-    
+
+   
 }

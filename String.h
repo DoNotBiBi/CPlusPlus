@@ -33,7 +33,7 @@ void countchar(string s) {
 
 
 //string
-int main()
+void test_string()
 {
 	string str = "hello world";
 	sort(str.begin(), str.end());
@@ -76,5 +76,4 @@ int main()
 	cout << s.find_last_not_of(sub) << endl;
 	cout << "x小写为:" << (char)tolower(x) << endl;
 	cout << "x大写为:" << (char)toupper(x) << endl;
-	return 0;
 }

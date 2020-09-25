@@ -52,7 +52,3 @@ void Test_set() {
 	cout << endl;
 
 }
-int main()
-{
-    std::cout << "Hello World!\n";
-}
