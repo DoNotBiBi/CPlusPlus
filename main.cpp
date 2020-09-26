@@ -3,9 +3,10 @@
 //
 
 #include <iostream>
+#include "VQS.h"
 using namespace std;
 int main()
 {
-    cout<<"hello"<<endl;
+    Test_Vector();
     return 0;
 }

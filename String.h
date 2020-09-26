@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 #include <cstring>
 #include <cstdio>
 #include <cctype>
@@ -32,7 +32,7 @@ void countchar(string s) {
 
 
 
-//string
+
 void test_string()
 {
 	string str = "hello world";

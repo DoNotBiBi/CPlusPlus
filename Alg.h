@@ -526,15 +526,15 @@ void test_alg()
 
 
 	string result = "";
-	string s = "wangkang helo guagua";
+	string s2 = "wangkang helo guagua";
 	const string delim = " ";
-	String_Split_Reverse(result, s, delim);
+	String_Split_Reverse(result, s2, delim);
 	cout << result;
 
 	char as[128];
 	int a=123;
-	itoa(a,as,10); // 将整数x转化为字符串
-	cout<<as<<endl;
+	//itoa(a,as,10); // 将整数x转化为字符串
+	//cout<<as<<endl;
 	char ab[128]="23";
 	float a2=atoi(ab); // 将数字字符串转化为单精度浮点数
 	cout<<a2<<endl;
@@ -564,7 +564,7 @@ void test_alg()
 	TentoBinary(n1, m1);
 	
 
-
+/*
 	ifstream ifs;
 	string filename = "in.txt";
 	ifs.open(filename);
@@ -609,5 +609,5 @@ void test_alg()
 	ifs.close();
 	ofs.close();
 
-
+	*/
 }

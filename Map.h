@@ -138,6 +138,9 @@ int Dayofyear(int year)
 
 const int MAX = 1000;
 bool arr[MAX];
+
+
+
 void t_2_9(int n1, int n2)
 {
     int l, m;
@@ -148,7 +151,7 @@ void t_2_9(int n1, int n2)
     }
     while (n2 > 0)
     {
-        scanf("%d%d", &l, &m);
+        cin >> l >> m;
 
 
         for (int k = l; k <= m; k++)
@@ -172,7 +175,8 @@ void t_2_9(int n1, int n2)
     }
     */
 
-}
+} 
+
 // int main()
 // {
 //     /*char c[30][30];
