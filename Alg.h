@@ -338,7 +338,7 @@ int is_leapyear(int year)
 }
 
 
-// 全排列
+// 全排列 阿斯蒂芬
 void swap(int A[], int i, int j)
 {
 	int temp = A[j];

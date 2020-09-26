@@ -88,7 +88,7 @@ void T_Error2() {
 	}
 }
 
-void T_Error3() {
+void T_Error3() {  // hello
 	int x, y, z=0;
 	while (cin >> x >> y) {
 		try
